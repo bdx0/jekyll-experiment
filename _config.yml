@@ -1,0 +1,20 @@
+name: Simple jekyll study
+description: ""
+
+author: duydb
+author_email: baoduy.duong0206@gmail.com
+
+category_dir: 
+
+baseurl: /jekyll-experiment
+
+url: http://duongbaoduy.github.io
+
+# markdown: rdiscount
+
+permalink: pretty
+
+paginate: 5
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
