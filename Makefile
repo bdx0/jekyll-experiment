@@ -68,6 +68,7 @@ git-create:
 		"origin" ) git remote remove origin; \
 	esac 
 	git remote add origin https://github.com/duongbaoduy/jekyll-experiment.git
+	git remote add jekyll-src https://github.com/jekyll/jekyll.git
 	@echo Done $@ : $^ !!
 
 .PHONY: build
